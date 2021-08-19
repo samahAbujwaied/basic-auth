@@ -9,5 +9,5 @@ const AutheModel = autheModel(sequelize, DataTypes);
 
 module.exports={
   db:sequelize ,
-  AutheModel
+  AutheModel:AutheModel
 }

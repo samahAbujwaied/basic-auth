@@ -5,6 +5,7 @@ const auth = require('./models/auth.model')
 const signinRout = require('./routes/signin')
 const signupRout = require('./routes/signup')
 const app = express();
+
 app.use(express.json()); 
 
 app.use(express.urlencoded({ extended: true }));
